@@ -1,0 +1,32 @@
+[
+	{
+		"firstName": "Srinu",
+		"id": "101",
+		"age": 22,
+		"lastName": "Ravula"
+	},
+	{
+		"firstName": "naveen",
+		"id": "102",
+		"lastName": "yandrapalli",
+		"age": 22
+	},
+	{
+		"firstName": "Vihitha",
+		"id": "103",
+		"lastName": "G",
+		"age": 22
+	},
+	{
+		"firstName": "Anitha",
+		"id": "104",
+		"lastName": "G",
+		"age": 26
+	},
+	{
+		"firstName": "Prasanna",
+		"id": "105",
+		"lastName": "K",
+		"age": 23
+	}
+]
