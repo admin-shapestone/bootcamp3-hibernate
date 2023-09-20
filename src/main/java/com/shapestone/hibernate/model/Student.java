@@ -1,10 +1,15 @@
 package com.shapestone.hibernate.model;
 
+import java.util.List;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -27,6 +32,11 @@ public class Student {
 		return id;
 	}
 
+	@OneToMany(cascade = CascadeType.ALL)
+	@JoinColumn(name = "student_id")
+	private List<Certificates> certList;
+	
+	
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -57,8 +67,19 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [lastName=" + lastName + ", id=" + id + ", firstName=" + firstName + ", age=" + age + "]";
+		return "Student [id=" + id + ", lastName=" + lastName + ", firstName=" + firstName + ", age=" + age
+				+ ", certList=" + certList + "]";
 	}
+
+	public List<Certificates> getCertList() {
+		return certList;
+	}
+
+	public void setCertList(List<Certificates> certList) {
+		this.certList = certList;
+	}
+	
+	
 	
 
 }

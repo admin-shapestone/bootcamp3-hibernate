@@ -17,5 +17,6 @@
       <property name="hbm2ddl.auto">create-drop</property>
       
       <mapping  class="com.shapestone.hibernate.model.Student" />
+      <mapping  class="com.shapestone.hibernate.model.Certificates" />
   </session-factory>
 </hibernate-configuration>

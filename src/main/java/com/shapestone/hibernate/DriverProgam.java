@@ -2,6 +2,8 @@ package com.shapestone.hibernate;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import org.hibernate.Session;
@@ -11,6 +13,7 @@ import org.hibernate.Transaction;
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.shapestone.hibernate.model.Certificates;
 import com.shapestone.hibernate.model.Student;
 import com.shapestone.hibernate.util.HibernateUtil;
 
@@ -35,6 +38,11 @@ public class DriverProgam {
 
 			if (option == 1) {
 				DataRetrive retrive = new DataRetrive();
+				System.out.println("Enter student number to load details");
+				int studentNumber = scanner.nextInt();
+				if (studentNumber > 0) {
+					retrive.fetchAndDisplay(studentNumber);
+				}
 				retrive.fetchAndDisplay();
 			} else if (option == 2) {
 				InsertData insertData = new InsertData();
@@ -61,8 +69,10 @@ public class DriverProgam {
 	private static void dumpData() {
 		ObjectMapper mapper = new ObjectMapper();
 		Student[] studentData = null;
+		Certificates[] certificateData = null;
 		try {
 			studentData = mapper.readValue(new File("students.json"), Student[].class);
+			certificateData = mapper.readValue(new File("certificates.json"), Certificates[].class);
 		} catch (StreamReadException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -76,11 +86,25 @@ public class DriverProgam {
 		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 		Session openSession = sessionFactory.openSession();
 		Transaction beginTransaction = openSession.beginTransaction();
+		
+		
 		for (Student student : studentData) {
+			List<Certificates> addCertstoStudent = addCertstoStudent(student, certificateData);
+			student.setCertList(addCertstoStudent);
 			openSession.persist(student);
 		}
 		beginTransaction.commit();
 		
+	}
+
+	private static List<Certificates> addCertstoStudent(Student student, Certificates[] certificateData) {
+		List<Certificates> certs = new ArrayList<>();
+		for (Certificates cert : certificateData) {
+			if (student.getId() == cert.getStudentId()) {
+				certs.add(cert);
+			}
+		}
+		return certs;
 	}
 
 }
