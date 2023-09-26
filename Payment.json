@@ -1,0 +1,48 @@
+[
+	{
+		"paymentId": "PAY001",
+		"accountNumber": "1234567890",
+		"balance": "5000",
+		"currency": "ruppes",
+		"credits": "200",
+		"debits": "100",
+		"email": "anitha.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-21 14:30:00",
+		"paymentCategory": "Rent"
+	},
+	
+	{
+		"paymentId": "PAY002",
+		"accountNumber": "1345788648",
+		"balance": "10000",
+		"credits": "1000",
+		"debits": "500",
+		"currency": "ruppes",
+		"email": "parnitha.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-20 14:30:00",
+		"paymentCategory": "Rent"
+	},
+	{
+		"paymentId": "PAY003",
+		"accountNumber": "124538978",
+		"balance": "15000",
+		"credits": "2000",
+		"debits": "500",
+		"currency": "ruppes",
+		"email": "mohana.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-19 14:30:00",
+		"paymentCategory": "Rent"
+	},
+	{
+		"paymentId": "PAY004",
+		"accountNumber": "12453897820",
+		"balance": "10000",
+		"credits": "2050",
+		"debits": "100",
+		"currency": "ruppes",
+		"email": "amrutha.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-18 14:30:00",
+		"paymentCategory": "Rent"
+	}
+	
+]
