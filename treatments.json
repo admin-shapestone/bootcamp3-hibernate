@@ -1,0 +1,54 @@
+[
+  {
+    "slNo": 1,
+    "patientId": "101",
+    "treatmentId":"T01",
+    "disease": "fever",
+    "treatment": "done",
+    "costOfTreatment": 1000,
+    "dateOfTreatment": "20-08-2023",
+    "diagnosis": "Not Required",
+    "costOfDiagnosis": 0,
+    "costOfMedicines": 500,
+    "totalCost": 1500   
+  },
+  {
+    "slNo": 2,
+    "patientId": "102",
+    "treatmentId":"T02",
+    "disease": "fever",
+    "treatment": "done",
+    "costOfTreatment": 1000,
+    "dateOfTreatment": "20-08-2023",
+    "diagnosis": "required",
+    "costOfDiagnosis": 20000,
+    "costOfMedicines": 3000,
+    "totalCost": 24000
+  },
+  {
+    "slNo": 3,
+    "patientId": "103",
+    "treatmentId":"T04",
+    "disease": "fever",
+    "treatment": "done",
+    "costOfTreatment": 1000,
+    "dateOfTreatment": "20-08-2023",
+    "diagnosis": "NA",
+    "costOfDiagnosis": 0,
+    "costOfMedicines": 500,
+    "totalCost": 1500
+  },
+  {
+    "slNo": 4,
+    "patientId": "101",
+    "treatmentId":"T05",
+    "disease": "stomach pain",
+    "treatment": "done",
+    "costOfTreatment": 1000,
+    "dateOfTreatment": "20-08-2023",
+    "diagnosis": "Not Required",
+    "costOfDiagnosis": 0,
+    "costOfMedicines": 500,
+    "totalCost": 1500
+  }
+]
