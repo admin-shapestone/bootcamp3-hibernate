@@ -1,0 +1,38 @@
+[
+	{
+		"accountNumber": "1234567890",
+		"accountType": "Savings",
+		"balance": 5000,
+		"firstName": "anitha",
+		"lastName": "Gadiparthi",
+		"accountCreationDate": "2023-09-27",
+		"address": "nandigama"
+	},
+	{
+		"accountNumber": "1345788648",
+		"accountType": "Savings",
+		"balance": 10000,
+		"firstName": "parnitha",
+		"lastName": "Ganta",
+		"accountCreationDate": "2023-09-26",
+		"address": "nandigama"
+	},
+	{
+		"accountNumber": "124538978",
+		"accountType": "Savings",
+		"balance": 15000,
+		"firstName": "mohana",
+		"lastName": "Chirumamilla",
+		"accountCreationDate": "2023-09-27",
+		"address": "nandigama"
+	},
+	{
+		"accountNumber": "12453897820",
+		"accountType": "Savings",
+		"balance": 15000,
+		"firstName": "amrutha",
+		"lastName": "Chirumamilla",
+		"accountCreationDate": "2023-09-26",
+		"address": "nandigama"
+	}
+]

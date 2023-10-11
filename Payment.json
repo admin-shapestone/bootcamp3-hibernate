@@ -1,0 +1,134 @@
+[
+	{
+		"paymentId": "PAY001",
+		"accountNumber": "1234567890",
+		"balance": 1000.00,
+		"currency": "ruppes",
+		"credits": "5000",
+		"debits": "0.00",
+		"email": "anitha.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-27 14:30:00",
+		"paymentCategory": "Rent"
+	},
+	{
+		"paymentId": "PAY002",
+		"accountNumber": "1345788648",
+		"balance": "10000",
+		"credits": "0.00",
+		"debits": "5000",
+		"currency": "ruppes",
+		"email": "parnitha.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-26 14:30:00",
+		"paymentCategory": "Rent"
+	},
+	{
+		"paymentId": "PAY003",
+		"accountNumber": "124538978",
+		"balance": 9000.00,
+		"credits": "0.00",
+		"debits": "500",
+		"currency": "ruppes",
+		"email": "mohana.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-27 14:30:00",
+		"paymentCategory": "Rent"
+	},
+	{
+		"paymentId": "PAY004",
+		"accountNumber": "12453897820",
+		"balance": 1000.00,
+		"credits": "0.00",
+		"debits": "1000",
+		"currency": "ruppes",
+		"email": "amrutha.shapestone@gmail.com",
+		"transactionDateTime": " 2023-09-26 14:30:00",
+		"paymentCategory": "Rent"
+	},
+	{
+        "paymentId": "PAY011",
+        "accountNumber": "1345788648",
+        "balance": 10000.00,
+        "currency": "ruppes",
+        "credits": 10000,
+        "debits": 0.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-26 15:30:00",
+        "paymentCategory": "salary"
+    },
+    {
+        "paymentId": "PAY012",
+        "accountNumber": "1345788648",
+        "balance": 1000.00,
+        "currency": "ruppes",
+        "credits": 0.00,
+        "debits": 5000.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-26 16:30:00",
+        "paymentCategory": "EMI"
+    },
+    {
+        "paymentId": "PAY013",
+        "accountNumber": "1345788648",
+        "balance": 1000.00,
+        "currency": "ruppes",
+        "credits": 0.00,
+        "debits": 1000.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-27 14:30:00",
+        "paymentCategory": "grocires"
+    },
+    {
+        "paymentId": "PAY014",
+        "accountNumber": "1345788648",
+        "balance": 1000.00,
+        "currency": "ruppes",
+        "credits": 0.00,
+        "debits": 1000.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-28 14:30:00",
+        "paymentCategory": "mobile recharge"
+    },
+    {
+        "paymentId": "PAY015",
+        "accountNumber": "1345788648",
+        "balance": 1000.00,
+        "currency": "ruppes",
+        "credits": 0.00,
+        "debits": 1000.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-28 16:30:00",
+        "paymentCategory": "waterbill"
+    },
+    {
+        "paymentId": "PAY016",
+        "accountNumber": "1345788648",
+        "balance": 1000.00,
+        "currency": "ruppes",
+        "credits": 0.00,
+        "debits": 1000.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-26 14:30:00",
+        "paymentCategory": "milk"
+    },
+    {
+        "paymentId": "PAY018",
+        "accountNumber": "1345788648",
+        "balance": 1000.00,
+        "currency": "ruppes",
+        "credits": 0.00,
+        "debits": 500.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-28 17:30:00",
+        "paymentCategory": "Rent"
+    },
+    {
+        "paymentId": "PAY019",
+        "accountNumber": "1345788648",
+        "balance": 8000.00,
+        "currency": "ruppes",
+        "credits": 0.00,
+        "debits": 220.00,
+        "email": "parnitha.shapestone@gmail.com",
+        "transactionDateTime": "2023-09-29 14:30:00",
+        "paymentCategory": "vegetable expenses"
+    }
+]
